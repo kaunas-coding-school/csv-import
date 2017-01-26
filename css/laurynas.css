@@ -1,16 +1,28 @@
-#home-link {
-  font-size: 180%;
-}
-
-.blue-text {
-  font-size: 140%;
-}
-
 .blue-text {
   color: #0000ff;
-  font-size: 180%;
+}
+
+.first-section {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.navigation ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navigation ul li {
+  width: 30%;
+  float: left;
 }
 
 p {
-  font-size: 120%;
+  clear: both;
+}
+
+img {
+  float: none;
+  width: 30%;
+  height: auto;
 }
