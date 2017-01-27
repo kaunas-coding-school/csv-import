@@ -1,28 +1,29 @@
-.blue-text {
-  color: #0000ff;
+.login-form {
+  background-image: url("/images/Abstract-Background.jpg");
+  position: relative;
 }
 
-.first-section {
-  margin-top: 10%;
-  margin-bottom: 10%;
+.login-form .login-wrapper{
+  min-height: 100vh;
 }
 
-.navigation ul {
-  list-style: none;
-  padding-left: 0;
+.navbar {
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-image: none;
 }
 
-.navigation ul li {
-  width: 30%;
-  float: left;
+.login-panel {
+  position: absolute;
+  width: calc(100% - 30px);
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
-p {
-  clear: both;
-}
-
-img {
-  float: none;
-  width: 30%;
-  height: auto;
+.login-button {
+  width: 100%;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
